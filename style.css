@@ -3,10 +3,159 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    margin: 0px 140px;
+}
+main{
+    margin: 0px 140px;
+}
 
 .quicksand-font {
   font-family: "Quicksand", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+}
+
+/* nave */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.nav-img-title{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.nav-title{
+    font-weight: bold;
+    font-size: 32px;
+
+}
+ul > a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+.ul-container{
+    display: flex;
+    gap: 20px;
+}
+.home{
+    color: aqua;
+}
+.About{
+    color: rgb(226, 16, 191);
+
+}
+.Facilities{
+    color: chocolate;
+}
+.Admission{
+    color: darkmagenta;
+}
+
+.nav-button{
+    width: 197px;
+    font-weight: 500px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    background-color:#FEA301 ;
+}
+.nav-button:hover{
+    background-color: deeppink;
+
+}
+
+/* main  */
+/* hero container */
+.hero-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.hero-title{
+    font-weight: bold;
+    font-size: 56px;
+}
+.hero-dec{
+    font-weight: 500px;
+    font-size: 20px;
+}
+.hero-button{
+    width: 197px;
+    font-weight: 500px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    background-color:#070400 ;
+    margin-top: 8px;
+
+}
+.hero-button:hover{
+    background-color: deeppink;
+
+}
+.hero-imgs{
+    width: 468px;
+}
+.st-cur-container{
+    background-image: url("./assets/bg.png");
+    background-repeat: no-repeat;
+}
+.card{
+    width: 367px;
+    height: 276px;
+    border: none;
+    background-color: #def5ffaf;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 8px;
+}
+.card-btn{
+    
+    font-weight: 500px;
+    font-size: 20px;
+    color: #64C8FF;
+    border: none;
+    border-radius: 15px;
+    margin-top: 8px;
+
+}
+.card-btn:hover{
+    width: 197px;
+    font-weight: 500px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: deeppink;
+    margin-top: 8px;
+
+}
+.st-cards{
+    margin-top: 70px;
+    display: flex;
+    
+    gap: 10px;
+}
+.cd-two{
+    background-color: #fff4dcb7;
+}
+.cd-three{
+    background-color: #f2e8ffbb;
 }
