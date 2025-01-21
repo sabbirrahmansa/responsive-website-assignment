@@ -219,12 +219,31 @@ ul > a{
 ul>li{
     text-decoration: none;
 }
-
+.menu{
+    width: 30px;
+}
+/* hr */
+.hr{
+    display: none;
+}
+.display{
+    display: none;
+}
 @media screen and (max-width:576px) {
     nav{
-        flex-direction: row;
-        justify-content: space-between;
+        display: flex;
+        gap: 20px;
+        justify-content: space-around;
         
+      
+    }
+    .hr{
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .display{
+        display: block;
     }
     .nav-title{
         display: none;
