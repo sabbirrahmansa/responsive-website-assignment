@@ -197,6 +197,7 @@ ul > a{
     gap: 10px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    align-items: center;
 }
 
 /* footer */
@@ -279,7 +280,7 @@ ul>li{
         text-align: center;
     }
     .story-cards{
-        grid-template-columns: repeat(1, 1fr);
+        display: none;
     }
     .img{
         max-width: 100%;
